@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 	public void onClick(View view) {
 		// Register for the battery changed event
 		IntentFilter filter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
-Intent
+		
 		// Intent is sticky so using null as receiver works fine
 		// return value contains the status
 		Intent batteryStatus = this.registerReceiver(null, filter);
